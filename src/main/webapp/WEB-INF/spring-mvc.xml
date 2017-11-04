@@ -20,6 +20,6 @@
     <!--静态文件（js、css、image）的访问-->
     <!--如果使用mvc:resources标签，则mapping必须与前端页面中<script>请求的路径匹配,cache-period可以使得静态资源进行web cache-->
     <!--<mvc:resources mapping="/assets/**" location="/assets/"/>-->
-    <!--如果使用以下配置，则存放静态文件的目录（asset）必须在webapp文件夹下，webapp文件夹是默认的web文件根目录 -->
+    <!--如果使用以下配置，则存放静态文件的目录(asset)必须在webapp文件夹下，webapp文件夹是默认的web文件根目录 -->
     <mvc:default-servlet-handler/>
 </beans>
