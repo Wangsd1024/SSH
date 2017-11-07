@@ -8,6 +8,13 @@
          version="3.1">
     <display-name>Archetype Created Web Application</display-name>
     <!--===当前配置的文件路径均基于 webapp 文件夹下===-->
+    <!--可以使用如下配置加载配置文件，它将在程序完全启动前加载完成-->
+    <!--<context-param>-->
+        <!--<param-name>log4jConfiguration</param-name>-->
+        <!-- 日志配置文件路径，请根据具体项目自行调整 -->
+        <!--<param-value>classpath:log4j2.xml</param-value>-->
+    <!--</context-param>-->
+
 
     <!--配置Spring MVC的默认后台控制器，‘/’表示拦截所有请求，-->
     <servlet>
